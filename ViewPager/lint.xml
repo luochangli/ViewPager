@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ClickableViewAccessibility">
+        <ignore path="src/cn/bingoogol/viewpager/ui/view/BingoViewPager.java" />
+        <ignore path="src/cn/bingoogol/viewpager/ui/view/BingoViewPagerExecutor.java" />
+        <ignore path="src/cn/bingoogol/viewpager/ui/view/BingoViewPagerTimer.java" />
+    </issue>
+    <issue id="ContentDescription">
+        <ignore path="res/layout/activity_splash.xml" />
+    </issue>
+    <issue id="HandlerLeak" severity="ignore" />
+    <issue id="HardcodedText" severity="ignore" />
+    <issue id="InflateParams" severity="ignore">
+        <ignore path="src/cn/bingoogol/viewpager/ui/activity/SplashActivity.java" />
+    </issue>
+    <issue id="OldTargetApi" severity="ignore" />
+</lint>
